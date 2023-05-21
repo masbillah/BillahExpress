@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project for making billah express">
+    <title>Billah expres</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontwosam cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+
+</head>
+<body>
+    
+<!-- navber stard here -->
+<i class="fas fa-bars fa-2x" id="menu-icon"></i>
+ <nav id="menu" class="hidden">
+    <ul class="nav-upper flax-around">
+        <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-list"><a href="register.html" class="nav-link">register</a></li>
+        <li class="nav-list"><a href="login.html" class="nav-link">Login</a></li>
+        <li class="nav-list"><a href="index.html" class="nav-link">Logout</a></li>
+        <li class="nav-list"><a href="Contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-list"><a href="profile.html" class="nav-link"><img class="profile-icon" src="image/profile.jpg" alt="profile icon"></a></li>
+    
+    </ul>
+    <ul class="nav-lower flax-around">
+        <li class="nav-list">
+            <a href="index.html" class=" nav-brand nav-link">Billah Express</a>
+        </li>
+        <li class="nav-list">
+            <a href="cart.html" class=" nav-link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                Card 2 products -$120.40
+            </a>
+        </li>
+    </ul>
+ </nav>
+<!-- navbar stsrd end here -->
+
+<!-- header stard here -->
+
+<header class="header">
+    <div class="banner flax-around">
+        <marquee class="banner-title" behavior="" direction="">50% sale going on</marquee>
+
+        <div class="features flax-around">
+            <article class="feauture flex-center">
+                <i class="fa-solid fa-truck feauture-icon"></i>
+                <h3>shipping within 7 days</h3>
+
+            </article>
+            <article class="feauture flex-center">
+                <i class="fa-brands fa-rocketchat feauture-icon"></i>
+                <h3>support 24/7</h3>
+
+            </article>
+            <article class="feauture flex-center">
+                <i class="fa-regular fa-credit-card feauture-icon"></i>
+                <h3>safe payment</h3>
+
+            </article>
+
+        </div>
+    </div>
+</header>
+
+<!-- header end her -->
+
+<main class="flax-around">
+    <div class="sidebar">
+        <section class="categories-section">
+            <h3 class="section-title">Categories</h3>
+           <ul class="list">
+            <li class="list-item">
+                <label for="phone">
+                    <input type="checkbox" name="phone" id="phone" value="phone
+                    ">
+                    Phone
+                </label>
+
+            </li>
+
+            <li class="list-item">
+                <label for="tablets">
+                    <input type="checkbox" name="tablets" id="tablets" value="tablets
+                    ">
+                    tablets
+                </label>
+
+            </li>
+
+            <li class="list-item">
+                <label for="Television">
+                    <input type="checkbox" name="Television" id="Television" value="Television
+                    ">
+                 Television
+                </label>
+
+            </li>
+            <li class="list-item">
+                <label for="Computers">
+                    <input type="checkbox" name="Computers" id="Computers" value="Computers
+                    ">
+                    Computers
+                </label>
+
+            </li>
+            <li class="list-item">
+                <label for="Headphones">
+                    <input type="checkbox" name="Headphones" id="Headphones" value="Headphones
+                    ">
+                    Headphones
+                </label>
+
+            </li>
+
+            <li class="list-item">
+                <label for="Smart Phon">
+                    <input type="checkbox" name="Smart Phon" id="Smart phon" value="Smart phon
+                    ">
+                   Smart Phon
+                </label>
+
+            </li>
+           </ul>
+        </section>
+
+        <section class="Price-section">
+            <h3 class="section-title">Price</h3>
+           <ul class="list">
+            <li class="list-item">
+                <label for="Price">
+                    <input type="radio" name="Price" id="Price" value="[0,20]
+                    ">
+                  $0-$20
+                </label>
+
+            </li>
+
+            <li class="list-item">
+                <label for="Price2">
+                    <input type="radio" name="Price2" id="Price2" value="[0,20]
+                    ">
+                    $21-$50
+                </label>
+
+            </li>
+            <li class="list-item">
+                <label for="Price3">
+                    <input type="radio" name="Price3" id="Price3" value="[0,20]
+                    ">
+                   $51-$100
+                </label>
+
+            </li>
+            <li class="list-item">
+                <label for="Price4">
+                    <input type="radio" name="Price4" id="Price4" value="[0,20]
+                    ">
+                   $101-300$
+                </label>
+
+            </li>
+
+           </ul>
+        </section>
+
+        <section class="Shipping-section">
+            <h3 class="section-title">Shipping</h3>
+           <ul class="list">
+            <li class="list-item">
+                <label for="free">
+                    <input type="radio" name="free" id="free" value="free
+                    ">
+                  free Shipping
+                </label>
+
+            </li>
+            <li class="list-item">
+                <label for="paid">
+                    <input type="radio" name="paid" id="Paid" value="free
+                    ">
+                  Paid Shipping
+                </label>
+
+            </li>
+        </ul>
+    </section>
+    </div>
+
+
+    <div class="main-contain">
+        <section class="action flax-around"> 
+            <div class="action-sort">
+                <label for="sort">Sort by</label>
+                <select name="Sort" id="Sort">
+                    <option value="sold">Most Sold first</option>
+                    <option value="sold">Most Sold first</option>
+                    <option value="sold">Most Sold first</option>
+                    <option value="sold">Most Sold first</option>
+                </select>
+            </div>
+
+            <div class="action-Search">
+                <input type="text" placeholder="Search product">
+                <button class="btn">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- product section atart here -->
+        <section class="products">
+            <article class="product">
+                <div class="badge">
+                    <span>5 in stoke</span>
+                    <hr class="he-design">
+                    <span>3 sold</span>
+                </div>
+                <img class="product__img" src="image/product1.jpg" alt="">
+
+                <div class="product-dody card">
+                    <h3 class="product-name">Sony V-4 Headphone</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-description">
+                        At sought and virtues his vile
+                         third light his come.
+                          Then dote was ah his
+                           once each revellers.... <a class="learn-mor" href="product.html">Learn More</a>
+                    </p>
+                    <h4 class="product-pric">$225.99</h4>
+                    <p class="product-rating">Ratting: 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+
+
+            </article>
+
+            <article class="product">
+                <div class="badge">
+                    <span>10 in stoke</span>
+                    <hr class="he-design">
+                    <span>8 sold</span>
+                </div>
+                <img class="product__img" src="image/product2.jpg" alt="">
+
+                <div class="product-dody card">
+                    <h3 class="product-name">Apple Smart Watch</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-description">
+                        At sought and virtues his vile
+                         third light his come.
+                          Then dote was ah his
+                           once each revellers.... <a class="learn-mor" href="product.html">Learn More</a>
+                    </p>
+                    <h4 class="product-pric">$425.99</h4>
+                    <p class="product-rating">Ratting: 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+
+
+            </article>
+
+            <article class="product">
+                <div class="badge">
+                    <span>15 in stoke</span>
+                    <hr class="he-design">
+                    <span>10 sold</span>
+                </div>
+                <img class="product__img" src="image/product3.jpg" alt="">
+
+                <div class="product-dody card">
+                    <h3 class="product-name">Nike shoes</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-description">
+                        At sought and virtues his vile
+                         third light his come.
+                          Then dote was ah his
+                           once each revellers.... <a class="learn-mor" href="product.html">Learn More</a>
+                    </p>
+                    <h4 class="product-pric">$300.99</h4>
+                    <p class="product-rating">Ratting: 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+
+
+            </article>
+
+            <article class="product">
+                <div class="badge">
+                    <span>5 in stoke</span>
+                    <hr class="he-design">
+                    <span>3 sold</span>
+                </div>
+                <img class="product__img" src="image/product4.jpg" alt="">
+
+                <div class="product-dody card">
+                    <h3 class="product-name">Air pords</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>  
+                    <p class="product-description">
+                        At sought and virtues his vile
+                         third light his come.
+                          Then dote was ah his
+                           once each revellers.... <a class="learn-mor" href="product.html">Learn More</a>
+                    </p>
+                    <h4 class="product-pric">$225.99</h4>
+                    <p class="product-rating">Ratting: 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+
+
+            </article>
+
+            <article class="product">
+                <div class="badge">
+                    <span>10 in stoke</span>
+                    <hr class="he-design">
+                    <span>8 sold</span>
+                </div>
+                <img class="product__img" src="image/product5.jpeg" alt="">
+
+                <div class="product-dody card">
+                    <h3 class="product-name">I phone 14 pro Max</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-description">
+                        At sought and virtues his vile
+                         third light his come.
+                          Then dote was ah his
+                           once each revellers.... <a class="learn-mor" href="product.html">Learn More</a>
+                    </p>
+                    <h4 class="product-pric">$1120.99</h4>
+                    <p class="product-rating">Ratting: 5.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+
+
+            </article>
+
+            <article class="product">
+                <div class="badge">
+                    <span>15 in stoke</span>
+                    <hr class="he-design">
+                    <span>12 sold</span>
+                </div>
+                <img class="product__img" src="image/product6.jpg" alt="">
+
+                <div class="product-dody card">
+                    <h3 class="product-name">Polo T shart</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-description">
+                        At sought and virtues his vile
+                         third light his come.
+                          Then dote was ah his
+                           once each revellers.... <a class="learn-mor" href="product.html">Learn More</a>
+                    </p>
+                    <h4 class="product-pric">$20.99</h4>
+                    <p class="product-rating">Ratting: 4.5/5</p>
+                    <button class="btn product-button">Add to cart</button>
+                </div>
+
+
+            </article>
+
+
+
+        </section>
+        <div class="paigenatio">
+            
+            <button class="btn paogenation__btn"><i class="fas fa-less-than"></i></button>
+            <button class="btn paogenation__btn">1</button>
+            <button class="btn paogenation__btn">2</button>
+            <button class="btn paogenation__btn">3</button>
+            <button class="btn paogenation__btn">4</button>
+            <button class="btn paogenation__btn">5</button>
+            <button class="btn paogenation__btn">6</button>
+            <button class="btn paogenation__btn">7</button>
+            <button class="btn paogenation__btn">8</button>
+            <button class="btn paogenation__btn">9</button>
+            <button class="btn paogenation__btn">10</button>
+            <button class="btn paogenation__btn">...</button>
+            <button class="btn paogenation__btn">50</button>
+            <button class="btn paogenation__btn"> <i class="fas fa-greater-than"></i></button>
+           
+        </div>
+        
+        <!-- product section end here -->
+    </div>
+
+    
+</main>
+
+
+
+<!-- footer start her -->
+<footer class="flax-around">
+    <div class="flax-around">
+        <label for="subscribe">subscrib to newslatter</label>
+        <input type="email" placeholder="Your Email address" id="subscrib" name="subscrib" class="footer__input">
+          
+        <button class="btn btn-subscrib">subscrib</button>
+    </div>
+    <div>
+        <p>&copy; copyright 2023 billah Express all right rserved</p>
+    </div>
+
+</footer>
+
+<!-- footer end her -->
+
+<script src="scrips/indax.js"></script>
+    
+</body>
+</html>
